@@ -4,4 +4,4 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-plt.scatter(np.random.rand(50), np.random.rand(50))
+plt.scatter(np.random.rand(50), np.random.rand(50), color="r")
