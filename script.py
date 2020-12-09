@@ -2,13 +2,8 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-import math
 
-# random scatter plot
-plt.scatter(np.random.rand(50), np.random.rand(50), color="g")
+plt.scatter(np.random.rand(50), np.random.rand(50))
 
-# Sine wave
 plt.plot(np.sin(np.linspace(0,math.pi*2,100))
 
-# Cos wave   
-plt.plot(np.cos(np.linspace(0,math.pi*2,100))
